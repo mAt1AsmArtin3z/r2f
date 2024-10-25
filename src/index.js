@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Random from './Random';
+import Galeria from './Galeria';
+import Notas from './Notas';
+import Click from './Click';
 import reportWebVitals from './reportWebVitals';
+import Formulario from './Formulario';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Galeria />
+    <Formulario />
+    <Random />
+    <Click />
+    <Notas />
   </React.StrictMode>
 );
 
